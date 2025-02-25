@@ -15,7 +15,7 @@ with open(log_file, "a") as f:
         date = now.strftime("%d %m %y")
         time = now.strftime("%H:%M:%S")
         print(date)
-        f.write(date + " ")
+        f.write(date +" ")
         print(time)
         f.write(time + "\n")
 
